@@ -1,6 +1,6 @@
 {
-    "name": "multicoin-address-validator",
-    "description": "Multicoin address validator for Bitcoin and other Altcoins.",
+    "name": "tauros-multicoin-address-validator",
+    "description": "Tauros Multicoin address validator for Bitcoin and other Altcoins.",
     "keywords": [
         "0x","zrx",
         "Aave Coin","aave",
@@ -123,13 +123,13 @@
         "ZClassic","zcl",
         "ZenCash","zen"
     ],
-    "version": "0.5.2",
-    "author": "Chris <chris.tsim@gmail.com>",
-    "homepage": "https://github.com/christsim/multicoin-address-validator",
+    "version": "0.0.1",
+    "author": "JySa65 <jysa65.dev@gmail.com>",
+    "homepage": "https://github.com/coinbtr/multicoin-address-validator",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/christsim/multicoin-address-validator.git"
+        "url": "https://github.com/coinbtr/multicoin-address-validator.git"
     },
     "main": "src/wallet_address_validator",
     "engines": {

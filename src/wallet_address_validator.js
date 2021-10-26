@@ -3,7 +3,6 @@ var currencies = require('./currencies');
 var DEFAULT_CURRENCY_NAME = 'bitcoin';
 
 module.exports = {
-    //validate: function (address, currencyNameOrSymbol, networkType) {
     validate: function (address, currencyNameOrSymbol, opts) {
         var currency = currencies.getByNameOrSymbol(currencyNameOrSymbol || DEFAULT_CURRENCY_NAME);
 
