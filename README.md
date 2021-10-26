@@ -157,7 +157,7 @@ npm install tauros-multicoin-address-validator
 
 #### Node
 ```javascript
-var WAValidator = require('multicoin-address-validator');
+var WAValidator = require('tauros-multicoin-address-validator');
 
 var valid = WAValidator.validate('1KFzzGtDdnq5hrwxXGjwVnKzRbvf8WVxck', 'BTC');
 if(valid)
@@ -169,7 +169,7 @@ else
 ```
 
 ```javascript
-var WAValidator = require('multicoin-address-validator');
+var WAValidator = require('tauros-multicoin-address-validator');
 
 var valid = WAValidator.validate('1KFzzGtDdnq5hrwxXGjwVnKzRbvf8WVxck', 'litecoin', 'testnet');
 if(valid)
@@ -181,7 +181,7 @@ else
 ```
 
 ```javascript
-var WAValidator = require('multicoin-address-validator');
+var WAValidator = require('tauros-multicoin-address-validator');
 
 var currency = WAValidator.findCurrency('xrp');
 if(currency)
@@ -193,7 +193,7 @@ else
 ```
 
 ```javascript
-var WAValidator = require('multicoin-address-validator');
+var WAValidator = require('tauros-multicoin-address-validator');
 
 var currency = WAValidator.findCurrency('random');
 if(currency)
